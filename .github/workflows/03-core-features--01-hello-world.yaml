@@ -8,4 +8,7 @@ jobs:
     name: Say hello inline bash
     runs-on: ubuntu-24.04
     steps:
-      - run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
+      - name: Say hello
+        run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
+      - name: Say hello again
+        run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
