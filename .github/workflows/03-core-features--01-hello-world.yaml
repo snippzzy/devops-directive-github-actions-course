@@ -10,5 +10,3 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
-      - name: Say hello again
-        run: echo "Hello from an inline bash script in a GitHub Action Workflow!"
