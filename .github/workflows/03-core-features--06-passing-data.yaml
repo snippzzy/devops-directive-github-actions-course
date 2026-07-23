@@ -4,6 +4,7 @@ on:
 
 jobs:
   producer:
+    name: producer
     runs-on: ubuntu-24.04
 
     outputs:
@@ -26,6 +27,7 @@ jobs:
           echo "foo (step output):          ${{ steps.generate-foo.outputs.foo }}"
 
   consumer:
+    name: consumer
     runs-on: ubuntu-24.04
     needs: producer
     steps:
