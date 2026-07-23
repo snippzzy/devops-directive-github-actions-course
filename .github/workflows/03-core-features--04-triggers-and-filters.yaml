@@ -30,6 +30,7 @@ on:
   workflow_dispatch:
 jobs:
   echo-event:
+    name: Echo Event
     runs-on: ubuntu-24.04
     steps:
       - name: Dump full event JSON
